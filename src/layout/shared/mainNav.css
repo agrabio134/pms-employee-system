@@ -1,0 +1,37 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  height: 100vh;
+}
+
+li a {
+  display: block;;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+li a:active {
+  box-shadow: 2px 2px 5px #666462;
+}
+
+li a:focus {
+  box-shadow: 1px 1px 2px #666462;
+  background-color: #555;
+  color: white;
+}
+.logout{
+  position: absolute;
+  bottom: 10px;  
+  width: 168px;
+  /* border: 2px  solid red; */
+}

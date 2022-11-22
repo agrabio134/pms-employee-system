@@ -1,0 +1,9 @@
+.att_frame{
+    height: 550px;
+    width: 160vh;
+    overflow:hidden;
+}
+.attendance-container{
+    display: flex;
+    flex-direction: column;
+}

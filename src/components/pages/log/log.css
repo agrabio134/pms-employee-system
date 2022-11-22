@@ -1,0 +1,10 @@
+.frame{
+    top: 10%;
+    width: 60%;
+    height: 100%;
+}
+
+.log-container{
+    display: flex;
+    justify-content: center;
+}

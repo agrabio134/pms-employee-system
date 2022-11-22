@@ -1,0 +1,59 @@
+html{ 
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.main-nav-container {
+  display: flex;
+  height: 100%;
+  z-index: 1;
+
+}
+
+
+.main-container{
+  display: flex;
+  /* border: 2px solid red; */
+  width: 175vh;
+  justify-content: center;
+  height: 80vh;
+
+}
+
+
+.list-container{
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  
+
+}
+.log-container, .edit-container, .attendance-container {
+  text-align: left;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  background-color: rgb(41, 41, 41);
+  margin: 30px;
+  border: 5px solid rgb(114, 114, 114);
+  border-radius: 10px ;
+}
+.list-item{
+  display: grid;
+}
+table .item{
+  background-color: rgb(29, 29, 29);
+  width: 150px;
+  padding: 5px;
+  border-radius: 5px;
+  
+}
+.item:nth-child(even) { 
+  background: rgb(32, 32, 32); 
+}
+
+.edit-btn{
+ margin: 10px; 
+ color: rgb(255, 255, 255);
+ background-color: black;
+}
