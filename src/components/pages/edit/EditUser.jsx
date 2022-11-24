@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 import { useNavigate, useParams } from "react-router-dom";
+import './EditUser.css';
 
 const EditUser = () => {
     const navigate = useNavigate();
@@ -36,8 +37,8 @@ const EditUser = () => {
 
         <div className="main-container">
             <div className="edit-container">
-            <h1>Edit user</h1>
-            
+            <h1></h1>
+
             
           
             <form onSubmit={handleSubmit}>
