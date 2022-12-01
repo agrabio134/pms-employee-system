@@ -7,20 +7,23 @@ import LogPage from '../../components/pages/log/Log'
 import './mainNav.css'
 
 
+
 const MainNav = () => {
   
   
   return (
+    
     <div className="main-nav-container">
+      
       <BrowserRouter>
 
       <div className='nav-item'>
-          <ul>
+          <ul className='nav-list'>
             <li><Link to="/">Log</Link></li>
             <li><Link to="user/attendance">Attendance</Link></li>
             <li><Link to="user/:id/edit">Profile</Link></li>
             {/* <li><a href="" class="nav-item" id="add_leave"><span class='icon-field'><i class="fa fa-plus">	</i></span> New Leave Application</a></li> */}
-            <li><Link to="user/leave">New Leave Application</Link></li>
+            <li><Link to="user/leave">Leave Application</Link></li>
 
             
             <li><a className='logout' href='http://localhost/api/Emp_logout.php'>Logout</a></li>
@@ -40,8 +43,7 @@ const MainNav = () => {
           
             
       </BrowserRouter>
-      
-      
+
     </div>
   )
 }

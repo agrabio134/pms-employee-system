@@ -13,7 +13,7 @@ html{
 .main-container{
   display: flex;
   /* border: 2px solid red; */
-  width: 175vh;
+  width: 180vh;
   justify-content: center;
   height: 80vh;
 
@@ -57,4 +57,28 @@ table .item{
  margin: 10px; 
  color: rgb(255, 255, 255);
  background-color: black;
+}
+
+@media (max-width:750px){
+  .main-container{
+    display: flex;
+    /* border: 2px solid red; */
+    width: 700px;
+    justify-content: center;
+    height: 80vh;
+  
+    
+  }
+}
+
+@media (max-width:440px){
+
+  .main-container{
+    display: flex;
+    /* border: 2px solid red; */
+    width: 560px;
+    justify-content: center;
+    height: 90vh;
+  
+  }
 }

@@ -10,3 +10,32 @@
     width: 160vh;
     overflow:hidden;
 }
+
+@media (max-width:750px){
+    .lv-container{
+        display: flex;
+        justify-content: center;
+        width: 750px;
+    }
+    
+    .lv-frame{
+        height: 770px;
+        width: 700px;
+        overflow:hidden;
+    }
+  }
+
+@media (max-width:440px){
+    .lv-container{
+        display: flex;
+        justify-content: center;
+        width: 500px;
+    }
+    
+    .lv-frame{
+        height: 1080px;
+        width: 4500px;
+        overflow:hidden;
+    }
+  
+  }

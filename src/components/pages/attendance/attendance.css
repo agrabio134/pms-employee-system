@@ -7,3 +7,21 @@
     display: flex;
     flex-direction: column;
 }
+
+
+@media (max-width:750px){
+    .att_frame{
+        height: 550px;
+        width: 700px;
+        overflow:hidden;
+    }
+  }
+
+@media (max-width:440px){
+    .att_frame{
+        height: 550px;
+        width: 440px;
+        overflow:hidden;
+    };
+  
+  }
