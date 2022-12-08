@@ -23,7 +23,7 @@ const MainNav = () => {
             <li><Link to="user/attendance">Attendance</Link></li>
             <li><Link to="user/:id/edit">Profile</Link></li>
             {/* <li><a href="" class="nav-item" id="add_leave"><span class='icon-field'><i class="fa fa-plus">	</i></span> New Leave Application</a></li> */}
-            <li><Link to="user/leave">Leave Application</Link></li>
+            {/* <li><Link to="user/leave">Leave Application</Link></li> */}
 
             
             <li><a className='logout' href='http://localhost/api/Emp_logout.php'>Logout</a></li>
@@ -36,7 +36,7 @@ const MainNav = () => {
                 <Route path="/" element={<LogPage />}></Route>
                 <Route path="user/attendance" element={<AttendancePage />}></Route>
                 <Route path="user/:id/edit" element={<EditUser />}></Route>
-                <Route path="user/leave" element={<LeaveApplicationPage />}></Route>
+                {/* <Route path="user/leave" element={<LeaveApplicationPage />}></Route> */}
                 
             </Routes>
         </div>
