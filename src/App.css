@@ -14,6 +14,7 @@ html{
   display: flex;
   /* border: 2px solid red; */
   width: 180vh;
+  margin-top : 30px;
   justify-content: center;
   height: 80vh;
 
@@ -27,6 +28,50 @@ html{
   scroll-behavior: smooth;
   
 
+}
+.main-nav-container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  /* position: sticky; */
+
+}
+.nav-item {
+  display: flex;
+  margin-left: 180px;
+  height: 100%;
+  width: 100%;
+  
+
+}
+.nav-item-main {
+  top: 45px;
+  display: flex;
+  position: fixed;
+
+}
+
+input[type="text"],
+input[type="number"],
+input[type="password"],
+select {
+  background-color: white;
+  color: rgb(77, 77, 77);
+  height: 24px;
+  margin: 2px 0px;
+  padding: 2px;
+  border-radius: 2px;
+  border: 1px solid rgb(165, 165, 164);
+}
+input[type="date"]{
+  background-color: rgb(180, 180, 180);
+  color: rgb(255, 255, 255);
+  height: 24px;
+  width: 170px;
+  margin: 2px 0px;
+  padding: 2px;
+  border-radius: 2px;
+  border: 1px solid rgb(165, 165, 164);
 }
 .log-container, .edit-container, .attendance-container {
   text-align: left;

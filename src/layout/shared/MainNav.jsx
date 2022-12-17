@@ -17,16 +17,17 @@ const MainNav = () => {
       
       <BrowserRouter>
 
-      <div className='nav-item'>
+      <div className='nav-item-main'>
           <ul className='nav-list'>
             <li><Link to="/">Log</Link></li>
             <li><Link to="user/attendance">Attendance</Link></li>
             <li><Link to="user/:id/edit">Profile</Link></li>
+            <li><a className='logout' href='http://localhost/api/Emp_logout.php'>Logout</a></li>
             {/* <li><a href="" class="nav-item" id="add_leave"><span class='icon-field'><i class="fa fa-plus">	</i></span> New Leave Application</a></li> */}
             {/* <li><Link to="user/leave">Leave Application</Link></li> */}
 
             
-            <li><a className='logout' href='http://localhost/api/Emp_logout.php'>Logout</a></li>
+           
           </ul>
         </div>
 

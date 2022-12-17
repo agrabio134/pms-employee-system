@@ -31,7 +31,7 @@ li a:focus {
 }
 .logout{
   position: absolute;
-  bottom: 10px;  
+  bottom: 50px;  
   width: 168px;
   /* border: 2px  solid red; */
 }

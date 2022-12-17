@@ -1,0 +1,22 @@
+.edit-sub-btn {
+  margin-top: 50px;
+  margin-left: 210px;
+}
+.edit-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.edit-item-container {
+  display: grid;
+  padding: 30px 100px ;
+  grid-template-columns: 1fr 1fr;
+  /* border: 4px solid rgb(160, 159, 159); */
+}
+
+.inputs{
+  display: flex;
+  flex-direction: column;
+}
+
+
